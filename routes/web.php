@@ -11,6 +11,11 @@
 |
 */
 
+Route::get('motuget/{id}', function($id)
+{
+    return 'motuget '.$id;
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
