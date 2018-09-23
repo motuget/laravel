@@ -19,3 +19,8 @@ Route::get('motuget', function()
 {
     return 'motuget';
 });
+
+Route::post('motuget', function()
+{
+    return 'post API';
+});
